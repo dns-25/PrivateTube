@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Domů</string>
+    <string name="nav_categories">Kategorie</string>
+    <string name="nav_channels">Kanály</string>
+    <string name="nav_stars">Modelky</string>
+    <string name="nav_search">Hledat</string>
+    <string name="nav_favorites">Oblíbené</string>
+    <string name="nav_history">Historie</string>
+    <string name="nav_settings">Nastavení</string>
+
+    <string name="err_no_connection">Chybí připojení k internetu</string>
+    <string name="err_timeout">Server neodpovídá</string>
+    <string name="err_http_403">Přístup odepřen (403)</string>
+    <string name="err_http_404">Stránka nenalezena (404)</string>
+    <string name="err_http_429">Příliš mnoho požadavků (429). Chvíli počkejte</string>
+    <string name="err_http_5xx">Server není dostupný (%1$d)</string>
+    <string name="err_http_other">Chyba serveru (%1$d)</string>
+    <string name="err_empty">Prázdná odpověď serveru</string>
+    <string name="err_parse">Data se nepodařilo přečíst. Web se možná změnil</string>
+    <string name="err_unexpected">Neočekávaná chyba: %1$s</string>
+
+    <string name="loading">Načítání…</string>
+    <string name="retry">Zkusit znovu</string>
+    <string name="more_error">Další položky se nepodařilo načíst. Posuňte výběr a zkuste to znovu</string>
+
+    <string name="age_title">Pouze pro dospělé</string>
+    <string name="age_body">Aplikace zobrazuje obsah pro dospělé včetně explicitních sexuálních scén. Pokračováním potvrzujete, že je vám alespoň 18 let (nebo jste ve své zemi plnoletí) a že sledování takového obsahu je tam, kde jste, povoleno.</string>
+    <string name="age_note">Jde o neoficiálního klienta, který není spojen s vlastníkem zdrojového webu. Data se načítají přímo do vašeho zařízení; oblíbené a historie se ukládají pouze v něm.</string>
+    <string name="age_exit">Není mi 18 let – odejít</string>
+    <string name="age_enter">Je mi 18 a více – vstoupit</string>
+
+    <string name="refresh">Obnovit</string>
+
+    <string name="categories_empty">Nenalezeny žádné kategorie</string>
+    <string name="channels_empty">Nenalezeny žádné kanály</string>
+    <string name="stars_empty">Nenalezeny žádné modelky</string>
+    <string name="videos_count">Videa: %1$s</string>
+    <string name="favorites_empty">Zatím žádné oblíbené.\nOtevřete video a zvolte „Přidat do oblíbených“.</string>
+    <string name="history_empty">Historie sledování je prázdná</string>
+    <string name="list_empty">Zatím tu nejsou žádná videa</string>
+
+    <string name="settings_title">Nastavení</string>
+    <string name="settings_quality">Výchozí kvalita videa: %1$s</string>
+    <string name="quality_max">maximální</string>
+    <string name="quality_upto">do %1$dp</string>
+    <string name="settings_clear_history">Vymazat historii sledování</string>
+    <string name="settings_clear_cache">Vymazat mezipaměť stránek a obrázků</string>
+    <string name="about_title">O aplikaci</string>
+    <string name="about_text">Neoficiální klient: data se načítají přímo ze zdrojového webu a zpracovávají se v zařízení. Pokud web změní podobu, některé sekce se do aktualizace aplikace nemusí otevřít.\nOblíbené, odběry, historie a pozice přehrávání se ukládají pouze v tomto zařízení a nesynchronizují se. Přihlášení k účtu na webu není podporováno. Placený obsah se nepřehrává.</string>
+
+    <string name="fav_add">Přidat do oblíbených</string>
+    <string name="fav_remove">Odebrat z oblíbených</string>
+    <string name="details_channel">Další od: %1$s</string>
+    <string name="unavailable_removed">Video není dostupné (odstraněno nebo blokováno ve vašem regionu)</string>
+    <string name="unavailable_nostreams">Pro toto video není žádný přehratelný stream</string>
+
+    <string name="search_hint">Stiskněte OK a zadejte dotaz…</string>
+    <string name="search_min">Zadejte alespoň dva znaky.</string>
+    <string name="search_empty">Pro „%1$s“ nebylo nic nalezeno</string>
+
+    <string name="player_error">Video se nepodařilo přehrát (%1$s). Zkuste jinou kvalitu.</string>
+    <string name="player_other_quality">Jiná kvalita</string>
+    <string name="player_back">Zpět</string>
+    <string name="player_quality">Kvalita</string>
+    <string name="player_hint">◀ ▶ posun o 30 s  ·  OK pauza</string>
+
+    <string name="row_recommended">Doporučené</string>
+    <string name="settings_font">Velikost textu: %1$s</string>
+    <string name="font_medium">střední</string>
+    <string name="font_large">velká</string>
+    <string name="pin_set">Nastavit PIN</string>
+    <string name="pin_manage">Nastavení kódu PIN</string>
+    <string name="pin_change">Změnit PIN</string>
+    <string name="pin_disable">Vypnout PIN</string>
+    <string name="pin_enter">Zadejte PIN</string>
+    <string name="pin_enter_current">Zadejte současný PIN</string>
+    <string name="pin_enter_new">Zadejte nový PIN (4 číslice)</string>
+    <string name="pin_repeat_new">Zopakujte nový PIN</string>
+    <string name="pin_wrong">Nesprávný PIN</string>
+    <string name="pin_mismatch">Kódy se neshodují. Zkuste to znovu</string>
+    <string name="player_back_again">Dalším stisknutím „Zpět“ ukončíte</string>
+    <string name="player_hint_menu">"  ·  ▲ nabídka (%1$s)"</string>
+    <string name="settings_language">Jazyk aplikace: %1$s</string>
+    <string name="language_title">Jazyk aplikace</string>
+    <string name="lang_auto">automaticky (jazyk systému)</string>
+    <string name="vpn_notice">Pokud se videa špatně načítají, zapněte VPN</string>
+    <string name="menu_watch">Přehrát</string>
+    <string name="menu_from_start">Přehrát od začátku</string>
+    <string name="menu_channel">Všechna videa tohoto autora</string>
+    <string name="menu_remove_history">Odebrat z historie</string>
+    <string name="menu_no_channel">Autor tohoto videa není uveden</string>
+    <string name="menu_continue">Pokračovat ve sledování</string>
+    <string name="menu_author">Autor: %1$s</string>
+    <string name="menu_author_loading">Zjišťujeme autora…</string>
+    <string name="nav_subscriptions">Odběry</string>
+    <string name="sub_add">Odebírat autora</string>
+    <string name="sub_remove">Zrušit odběr autora</string>
+    <string name="sub_open">Otevřít videa autora</string>
+    <string name="subscriptions_empty">Zatím žádné odběry.\nPodržte OK na videu\na zvolte „Odebírat autora“.</string>
+    <string name="backup_export">Export oblíbených, odběrů a historie</string>
+    <string name="backup_import">Import oblíbených, odběrů a historie</string>
+    <string name="backup_saved">Uloženo do složky „Download“:\n%1$s\nOblíbené: %2$d, odběry: %3$d, historie: %4$d</string>
+    <string name="backup_save_failed">Kopii se nepodařilo uložit.</string>
+    <string name="backup_pick">Vyberte kopii</string>
+    <string name="backup_none">Žádné kopie nenalezeny. Vložte soubor do složky „Download“ v tomto zařízení nebo na flash disk.</string>
+    <string name="backup_added">Import dokončen.\nPřidáno do oblíbených: %1$d, do odběrů: %2$d, do historie: %3$d.\nNic nebylo odstraněno.</string>
+    <string name="backup_bad_file">Tento soubor není kopie vytvořená aplikací, nebo je poškozený.</string>
+    <string name="backup_read_failed">Soubor se nepodařilo přečíst.</string>
+    <string name="backup_need_access">Nejsou vidět všechny soubory. Chcete-li vidět kopie z předchozí instalace nebo z jiného zařízení, povolte přístup k souborům.</string>
+    <string name="backup_allow_access">Povolit přístup k souborům</string>
+    <string name="backup_no_settings">Toto zařízení nemá obrazovku pro udělení přístupu k souborům.</string>
+    <string name="backup_denied">Bez přístupu k souborům to není možné.</string>
+    <string name="ok">OK</string>
+</resources>

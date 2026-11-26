@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Início</string>
+    <string name="nav_categories">Categorias</string>
+    <string name="nav_channels">Canais</string>
+    <string name="nav_stars">Modelos</string>
+    <string name="nav_search">Pesquisa</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_settings">Configurações</string>
+
+    <string name="err_no_connection">Sem conexão com a internet</string>
+    <string name="err_timeout">O servidor não responde</string>
+    <string name="err_http_403">Acesso negado (403)</string>
+    <string name="err_http_404">Página não encontrada (404)</string>
+    <string name="err_http_429">Solicitações demais (429). Aguarde um momento</string>
+    <string name="err_http_5xx">Servidor indisponível (%1$d)</string>
+    <string name="err_http_other">Erro do servidor (%1$d)</string>
+    <string name="err_empty">Resposta vazia do servidor</string>
+    <string name="err_parse">Não foi possível ler os dados. O site pode ter mudado</string>
+    <string name="err_unexpected">Erro inesperado: %1$s</string>
+
+    <string name="loading">Carregando…</string>
+    <string name="retry">Tentar de novo</string>
+    <string name="more_error">Não foi possível carregar mais. Mova a seleção para tentar de novo</string>
+
+    <string name="age_title">Somente para adultos</string>
+    <string name="age_body">Este aplicativo mostra material adulto, incluindo cenas de sexo explícito. Ao continuar, você confirma que tem pelo menos 18 anos (ou a maioridade no seu país) e que ver esse material é permitido onde você está.</string>
+    <string name="age_note">Este é um cliente não oficial, sem vínculo com o dono do site de origem. Os dados são carregados direto no seu aparelho; favoritos e histórico ficam apenas nele.</string>
+    <string name="age_exit">Tenho menos de 18: sair</string>
+    <string name="age_enter">Tenho 18 ou mais: entrar</string>
+
+    <string name="refresh">Atualizar</string>
+
+    <string name="categories_empty">Nenhuma categoria encontrada</string>
+    <string name="channels_empty">Nenhum canal encontrado</string>
+    <string name="stars_empty">Nenhum modelo encontrado</string>
+    <string name="videos_count">%1$s vídeos</string>
+    <string name="favorites_empty">Ainda não há favoritos.\nAbra um vídeo e escolha “Adicionar aos favoritos”.</string>
+    <string name="history_empty">O histórico está vazio</string>
+    <string name="list_empty">Ainda não há vídeos aqui</string>
+
+    <string name="settings_title">Configurações</string>
+    <string name="settings_quality">Qualidade padrão do vídeo: %1$s</string>
+    <string name="quality_max">máxima</string>
+    <string name="quality_upto">até %1$dp</string>
+    <string name="settings_clear_history">Limpar o histórico</string>
+    <string name="settings_clear_cache">Limpar o cache de páginas e imagens</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_text">Cliente não oficial: os dados são carregados direto do site de origem e processados no aparelho. Se o site mudar o layout, algumas seções podem parar de abrir até o aplicativo ser atualizado.\nFavoritos, inscrições, histórico e posições de reprodução ficam apenas neste aparelho e não são sincronizados. Não há login na conta do site. Conteúdo pago não é reproduzido.</string>
+
+    <string name="fav_add">Adicionar aos favoritos</string>
+    <string name="fav_remove">Remover dos favoritos</string>
+    <string name="details_channel">Mais de %1$s</string>
+    <string name="unavailable_removed">O vídeo está indisponível (removido ou bloqueado na sua região)</string>
+    <string name="unavailable_nostreams">Este vídeo não tem transmissões reproduzíveis</string>
+
+    <string name="search_hint">Pressione OK e digite a pesquisa…</string>
+    <string name="search_min">Digite pelo menos dois caracteres.</string>
+    <string name="search_empty">Nada encontrado para “%1$s”</string>
+
+    <string name="player_error">Não foi possível reproduzir o vídeo (%1$s). Tente outra qualidade.</string>
+    <string name="player_other_quality">Outra qualidade</string>
+    <string name="player_back">Voltar</string>
+    <string name="player_quality">Qualidade</string>
+    <string name="player_hint">◀ ▶ pular 30 s  ·  OK pausa</string>
+
+    <string name="row_recommended">Recomendados</string>
+    <string name="settings_font">Tamanho do texto: %1$s</string>
+    <string name="font_medium">médio</string>
+    <string name="font_large">grande</string>
+    <string name="pin_set">Criar um código PIN</string>
+    <string name="pin_manage">Configurar o código PIN</string>
+    <string name="pin_change">Alterar o código PIN</string>
+    <string name="pin_disable">Desativar o código PIN</string>
+    <string name="pin_enter">Digite o código PIN</string>
+    <string name="pin_enter_current">Digite o código PIN atual</string>
+    <string name="pin_enter_new">Digite um novo PIN (4 dígitos)</string>
+    <string name="pin_repeat_new">Repita o novo PIN</string>
+    <string name="pin_wrong">Código PIN incorreto</string>
+    <string name="pin_mismatch">Os códigos não coincidem. Tente de novo</string>
+    <string name="player_back_again">Pressione “Voltar” de novo para sair</string>
+    <string name="player_hint_menu">"  ·  ▲ menu (%1$s)"</string>
+    <string name="settings_language">Idioma do aplicativo: %1$s</string>
+    <string name="language_title">Idioma do aplicativo</string>
+    <string name="lang_auto">automático (idioma do sistema)</string>
+    <string name="vpn_notice">Se os vídeos não carregarem direito, ative uma VPN</string>
+    <string name="menu_watch">Assistir</string>
+    <string name="menu_from_start">Assistir do começo</string>
+    <string name="menu_channel">Todos os vídeos deste autor</string>
+    <string name="menu_remove_history">Remover do histórico</string>
+    <string name="menu_no_channel">O autor deste vídeo não foi informado</string>
+    <string name="menu_continue">Continuar assistindo</string>
+    <string name="menu_author">Autor: %1$s</string>
+    <string name="menu_author_loading">Procurando o autor…</string>
+    <string name="nav_subscriptions">Inscrições</string>
+    <string name="sub_add">Inscrever-se no autor</string>
+    <string name="sub_remove">Cancelar inscrição no autor</string>
+    <string name="sub_open">Ver os vídeos do autor</string>
+    <string name="subscriptions_empty">Ainda não há inscrições.\nMantenha OK pressionado num vídeo\ne escolha “Inscrever-se no autor”.</string>
+    <string name="backup_export">Exportar favoritos, inscrições e histórico</string>
+    <string name="backup_import">Importar favoritos, inscrições e histórico</string>
+    <string name="backup_saved">Salvo na pasta “Download”:\n%1$s\nFavoritos: %2$d, inscrições: %3$d, histórico: %4$d</string>
+    <string name="backup_save_failed">Não foi possível salvar a cópia.</string>
+    <string name="backup_pick">Escolha uma cópia</string>
+    <string name="backup_none">Nenhuma cópia encontrada. Coloque o arquivo na pasta “Download” deste aparelho ou num pen drive.</string>
+    <string name="backup_added">Importação concluída.\nAdicionados aos favoritos: %1$d, às inscrições: %2$d, ao histórico: %3$d.\nNada foi removido.</string>
+    <string name="backup_bad_file">Este arquivo não é uma cópia criada pelo aplicativo ou está danificado.</string>
+    <string name="backup_read_failed">Não foi possível ler o arquivo.</string>
+    <string name="backup_need_access">Nem todos os arquivos estão visíveis. Para ver cópias de uma instalação anterior ou trazidas de outro aparelho, permita o acesso aos arquivos.</string>
+    <string name="backup_allow_access">Permitir acesso aos arquivos</string>
+    <string name="backup_no_settings">Este aparelho não tem uma tela para conceder acesso aos arquivos.</string>
+    <string name="backup_denied">Sem acesso aos arquivos isso não é possível.</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <!-- navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_channels">Channels</string>
+    <string name="nav_stars">Models</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- errors -->
+    <string name="err_no_connection">No internet connection</string>
+    <string name="err_timeout">The server is not responding</string>
+    <string name="err_http_403">Access denied (403)</string>
+    <string name="err_http_404">Page not found (404)</string>
+    <string name="err_http_429">Too many requests (429). Please wait a moment</string>
+    <string name="err_http_5xx">Server unavailable (%1$d)</string>
+    <string name="err_http_other">Server error (%1$d)</string>
+    <string name="err_empty">Empty response from the server</string>
+    <string name="err_parse">Could not read the data. The site may have changed</string>
+    <string name="err_unexpected">Unexpected error: %1$s</string>
+
+    <!-- common -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="more_error">Could not load more. Move the selection to retry</string>
+
+    <!-- age gate -->
+    <string name="age_title">Adults only</string>
+    <string name="age_body">This app shows adult material, including explicit sexual scenes. By continuing you confirm that you are at least 18 years old (or of legal age in your country) and that viewing such material is permitted where you are.</string>
+    <string name="age_note">This is an unofficial client and is not affiliated with the owner of the source site. Data is loaded directly to your device; favorites and history are stored only on it.</string>
+    <string name="age_exit">I am under 18 — exit</string>
+    <string name="age_enter">I am 18 or older — enter</string>
+
+    <!-- home -->
+    <string name="refresh">Refresh</string>
+
+    <!-- browse -->
+    <string name="categories_empty">No categories found</string>
+    <string name="channels_empty">No channels found</string>
+    <string name="stars_empty">No models found</string>
+    <string name="videos_count">%1$s videos</string>
+    <string name="favorites_empty">No favorites yet.\nOpen a video and choose “Add to favorites”.</string>
+    <string name="history_empty">Watch history is empty</string>
+    <string name="list_empty">No videos here yet</string>
+
+    <!-- settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_quality">Default video quality: %1$s</string>
+    <string name="quality_max">maximum</string>
+    <string name="quality_upto">up to %1$dp</string>
+    <string name="settings_clear_history">Clear watch history</string>
+    <string name="settings_clear_cache">Clear page and image cache</string>
+    <string name="about_title">About</string>
+    <string name="about_text">Unofficial client: data is loaded straight from the source site and parsed on the device. If the site changes its markup, some sections may stop opening until the app is updated.\nFavorites, subscriptions, history and playback positions are stored only on this device and are not synced anywhere. Signing in to a site account is not supported. Paid content is not played.</string>
+
+    <!-- details -->
+    <string name="fav_add">Add to favorites</string>
+    <string name="fav_remove">Remove from favorites</string>
+    <string name="details_channel">More from %1$s</string>
+    <string name="unavailable_removed">The video is unavailable (removed or blocked in your region)</string>
+    <string name="unavailable_nostreams">No playable streams for this video</string>
+
+    <!-- search -->
+    <string name="search_hint">Press OK and type your query…</string>
+    <string name="search_min">Enter at least two characters.</string>
+    <string name="search_empty">Nothing found for “%1$s”</string>
+
+    <!-- player -->
+    <string name="player_error">Could not play the video (%1$s). Try another quality.</string>
+    <string name="player_other_quality">Other quality</string>
+    <string name="player_back">Back</string>
+    <string name="player_quality">Quality</string>
+    <string name="player_hint">◀ ▶ skip 30 s  ·  OK pause</string>
+
+    <string name="row_recommended">Recommended</string>
+    <string name="settings_font">Text size: %1$s</string>
+    <string name="font_medium">medium</string>
+    <string name="font_large">large</string>
+    <string name="pin_set">Set a PIN code</string>
+    <string name="pin_manage">Manage the PIN code</string>
+    <string name="pin_change">Change the PIN code</string>
+    <string name="pin_disable">Turn off the PIN code</string>
+    <string name="pin_enter">Enter the PIN code</string>
+    <string name="pin_enter_current">Enter the current PIN code</string>
+    <string name="pin_enter_new">Enter a new PIN code (4 digits)</string>
+    <string name="pin_repeat_new">Repeat the new PIN code</string>
+    <string name="pin_wrong">Wrong PIN code</string>
+    <string name="pin_mismatch">The codes do not match. Try again</string>
+    <string name="player_back_again">Press Back again to exit</string>
+    <string name="player_hint_menu">"  ·  ▲ menu (%1$s)"</string>
+    <string name="settings_language">Language of the app: %1$s</string>
+    <string name="language_title">Language of the app</string>
+    <string name="lang_auto">automatic (system language)</string>
+    <string name="vpn_notice">If videos have trouble loading, turn on a VPN</string>
+    <string name="menu_watch">Watch</string>
+    <string name="menu_from_start">Watch from the beginning</string>
+    <string name="menu_channel">All videos by this author</string>
+    <string name="menu_remove_history">Remove from history</string>
+    <string name="menu_no_channel">The author of this video is not specified</string>
+    <string name="menu_continue">Continue watching</string>
+    <string name="menu_author">Author: %1$s</string>
+    <string name="menu_author_loading">Looking up the author…</string>
+    <string name="nav_subscriptions">Subscriptions</string>
+    <string name="sub_add">Subscribe to author</string>
+    <string name="sub_remove">Unsubscribe from author</string>
+    <string name="sub_open">Open author’s videos</string>
+    <string name="subscriptions_empty">No subscriptions yet.\nHold OK on a video\nand choose “Subscribe to author”.</string>
+    <string name="backup_export">Export favorites, subscriptions and history</string>
+    <string name="backup_import">Import favorites, subscriptions and history</string>
+    <string name="backup_saved">Saved to the “Download” folder:\n%1$s\nFavorites: %2$d, subscriptions: %3$d, history: %4$d</string>
+    <string name="backup_save_failed">The copy could not be saved.</string>
+    <string name="backup_pick">Choose a copy</string>
+    <string name="backup_none">No copies found. Put the file into the “Download” folder of this device or onto a USB drive.</string>
+    <string name="backup_added">Import finished.\nAdded to favorites: %1$d, subscriptions: %2$d, history: %3$d.\nNothing was removed.</string>
+    <string name="backup_bad_file">This file is not a copy made by the app, or it is damaged.</string>
+    <string name="backup_read_failed">The file could not be read.</string>
+    <string name="backup_need_access">Not all files are visible. To see copies left by a previous installation or brought from another device, allow access to files.</string>
+    <string name="backup_allow_access">Allow access to files</string>
+    <string name="backup_no_settings">This device has no screen for granting file access.</string>
+    <string name="backup_denied">Without access to files this is not possible.</string>
+    <string name="ok">OK</string>
+</resources>

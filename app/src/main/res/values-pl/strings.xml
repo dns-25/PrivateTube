@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Główna</string>
+    <string name="nav_categories">Kategorie</string>
+    <string name="nav_channels">Kanały</string>
+    <string name="nav_stars">Modelki</string>
+    <string name="nav_search">Szukaj</string>
+    <string name="nav_favorites">Ulubione</string>
+    <string name="nav_history">Historia</string>
+    <string name="nav_settings">Ustawienia</string>
+
+    <string name="err_no_connection">Brak połączenia z internetem</string>
+    <string name="err_timeout">Serwer nie odpowiada</string>
+    <string name="err_http_403">Odmowa dostępu (403)</string>
+    <string name="err_http_404">Nie znaleziono strony (404)</string>
+    <string name="err_http_429">Zbyt wiele zapytań (429). Poczekaj chwilę</string>
+    <string name="err_http_5xx">Serwer niedostępny (%1$d)</string>
+    <string name="err_http_other">Błąd serwera (%1$d)</string>
+    <string name="err_empty">Pusta odpowiedź serwera</string>
+    <string name="err_parse">Nie udało się odczytać danych. Strona mogła się zmienić</string>
+    <string name="err_unexpected">Nieoczekiwany błąd: %1$s</string>
+
+    <string name="loading">Wczytywanie…</string>
+    <string name="retry">Spróbuj ponownie</string>
+    <string name="more_error">Nie udało się wczytać dalszej części. Przesuń zaznaczenie, aby spróbować ponownie</string>
+
+    <string name="age_title">Tylko dla dorosłych</string>
+    <string name="age_body">Aplikacja pokazuje materiały dla dorosłych, w tym jednoznaczne sceny seksualne. Kontynuując, potwierdzasz, że masz co najmniej 18 lat (lub jesteś pełnoletnią osobą w swoim kraju) i że oglądanie takich materiałów jest dozwolone tam, gdzie się znajdujesz.</string>
+    <string name="age_note">To nieoficjalny klient, niezwiązany z właścicielem strony źródłowej. Dane są pobierane bezpośrednio na Twoje urządzenie; ulubione i historia są przechowywane tylko na nim.</string>
+    <string name="age_exit">Nie mam 18 lat – wyjdź</string>
+    <string name="age_enter">Mam 18 lat lub więcej – wejdź</string>
+
+    <string name="refresh">Odśwież</string>
+
+    <string name="categories_empty">Nie znaleziono kategorii</string>
+    <string name="channels_empty">Nie znaleziono kanałów</string>
+    <string name="stars_empty">Nie znaleziono modelek</string>
+    <string name="videos_count">Filmy: %1$s</string>
+    <string name="favorites_empty">Nie ma jeszcze ulubionych.\nOtwórz film i wybierz „Dodaj do ulubionych”.</string>
+    <string name="history_empty">Historia oglądania jest pusta</string>
+    <string name="list_empty">Nie ma tu jeszcze filmów</string>
+
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_quality">Domyślna jakość wideo: %1$s</string>
+    <string name="quality_max">maksymalna</string>
+    <string name="quality_upto">do %1$dp</string>
+    <string name="settings_clear_history">Wyczyść historię oglądania</string>
+    <string name="settings_clear_cache">Wyczyść pamięć podręczną stron i obrazów</string>
+    <string name="about_title">O aplikacji</string>
+    <string name="about_text">Nieoficjalny klient: dane są pobierane prosto ze strony źródłowej i przetwarzane na urządzeniu. Jeśli strona zmieni układ, niektóre sekcje mogą się nie otwierać do czasu aktualizacji aplikacji.\nUlubione, subskrypcje, historia i miejsca odtwarzania są przechowywane tylko na tym urządzeniu i nie są synchronizowane. Logowanie na konto strony nie jest obsługiwane. Płatne treści nie są odtwarzane.</string>
+
+    <string name="fav_add">Dodaj do ulubionych</string>
+    <string name="fav_remove">Usuń z ulubionych</string>
+    <string name="details_channel">Więcej od: %1$s</string>
+    <string name="unavailable_removed">Film jest niedostępny (usunięty lub zablokowany w Twoim regionie)</string>
+    <string name="unavailable_nostreams">Ten film nie ma strumieni do odtworzenia</string>
+
+    <string name="search_hint">Naciśnij OK i wpisz zapytanie…</string>
+    <string name="search_min">Wpisz co najmniej dwa znaki.</string>
+    <string name="search_empty">Nic nie znaleziono dla „%1$s”</string>
+
+    <string name="player_error">Nie udało się odtworzyć filmu (%1$s). Spróbuj innej jakości.</string>
+    <string name="player_other_quality">Inna jakość</string>
+    <string name="player_back">Wstecz</string>
+    <string name="player_quality">Jakość</string>
+    <string name="player_hint">◀ ▶ przewiń o 30 s  ·  OK pauza</string>
+
+    <string name="row_recommended">Polecane</string>
+    <string name="settings_font">Rozmiar tekstu: %1$s</string>
+    <string name="font_medium">średni</string>
+    <string name="font_large">duży</string>
+    <string name="pin_set">Ustaw kod PIN</string>
+    <string name="pin_manage">Ustawienia kodu PIN</string>
+    <string name="pin_change">Zmień kod PIN</string>
+    <string name="pin_disable">Wyłącz kod PIN</string>
+    <string name="pin_enter">Wpisz kod PIN</string>
+    <string name="pin_enter_current">Wpisz obecny kod PIN</string>
+    <string name="pin_enter_new">Wpisz nowy kod PIN (4 cyfry)</string>
+    <string name="pin_repeat_new">Powtórz nowy kod PIN</string>
+    <string name="pin_wrong">Błędny kod PIN</string>
+    <string name="pin_mismatch">Kody się różnią. Spróbuj jeszcze raz</string>
+    <string name="player_back_again">Naciśnij „Wstecz” jeszcze raz, aby wyjść</string>
+    <string name="player_hint_menu">"  ·  ▲ menu (%1$s)"</string>
+    <string name="settings_language">Język aplikacji: %1$s</string>
+    <string name="language_title">Język aplikacji</string>
+    <string name="lang_auto">automatycznie (język systemu)</string>
+    <string name="vpn_notice">Jeśli filmy źle się wczytują, włącz VPN</string>
+    <string name="menu_watch">Oglądaj</string>
+    <string name="menu_from_start">Oglądaj od początku</string>
+    <string name="menu_channel">Wszystkie filmy tego autora</string>
+    <string name="menu_remove_history">Usuń z historii</string>
+    <string name="menu_no_channel">Autor tego filmu nie jest podany</string>
+    <string name="menu_continue">Oglądaj dalej</string>
+    <string name="menu_author">Autor: %1$s</string>
+    <string name="menu_author_loading">Szukamy autora…</string>
+    <string name="nav_subscriptions">Subskrypcje</string>
+    <string name="sub_add">Subskrybuj autora</string>
+    <string name="sub_remove">Anuluj subskrypcję autora</string>
+    <string name="sub_open">Otwórz filmy autora</string>
+    <string name="subscriptions_empty">Nie masz jeszcze subskrypcji.\nPrzytrzymaj OK na filmie\ni wybierz „Subskrybuj autora”.</string>
+    <string name="backup_export">Eksport ulubionych, subskrypcji i historii</string>
+    <string name="backup_import">Import ulubionych, subskrypcji i historii</string>
+    <string name="backup_saved">Zapisano w folderze „Download”:\n%1$s\nUlubione: %2$d, subskrypcje: %3$d, historia: %4$d</string>
+    <string name="backup_save_failed">Nie udało się zapisać kopii.</string>
+    <string name="backup_pick">Wybierz kopię</string>
+    <string name="backup_none">Nie znaleziono kopii. Umieść plik w folderze „Download” na tym urządzeniu lub na pendrivie.</string>
+    <string name="backup_added">Import zakończony.\nDodano do ulubionych: %1$d, do subskrypcji: %2$d, do historii: %3$d.\nNic nie zostało usunięte.</string>
+    <string name="backup_bad_file">Ten plik nie jest kopią utworzoną przez aplikację albo jest uszkodzony.</string>
+    <string name="backup_read_failed">Nie udało się odczytać pliku.</string>
+    <string name="backup_need_access">Nie wszystkie pliki są widoczne. Aby zobaczyć kopie z poprzedniej instalacji lub przeniesione z innego urządzenia, zezwól na dostęp do plików.</string>
+    <string name="backup_allow_access">Zezwól na dostęp do plików</string>
+    <string name="backup_no_settings">To urządzenie nie ma ekranu przyznawania dostępu do plików.</string>
+    <string name="backup_denied">Bez dostępu do plików nie jest to możliwe.</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <!-- navigation -->
+    <string name="nav_home">Головна</string>
+    <string name="nav_categories">Категорії</string>
+    <string name="nav_channels">Канали</string>
+    <string name="nav_stars">Моделі</string>
+    <string name="nav_search">Пошук</string>
+    <string name="nav_favorites">Обране</string>
+    <string name="nav_history">Історія</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <!-- errors -->
+    <string name="err_no_connection">Немає підключення до інтернету</string>
+    <string name="err_timeout">Сервер не відповідає</string>
+    <string name="err_http_403">Доступ заборонено (403)</string>
+    <string name="err_http_404">Сторінку не знайдено (404)</string>
+    <string name="err_http_429">Забагато запитів (429). Зачекайте трохи</string>
+    <string name="err_http_5xx">Сервер недоступний (%1$d)</string>
+    <string name="err_http_other">Помилка сервера (%1$d)</string>
+    <string name="err_empty">Порожня відповідь сервера</string>
+    <string name="err_parse">Не вдалося розібрати дані. Можливо, сайт змінився</string>
+    <string name="err_unexpected">Непередбачена помилка: %1$s</string>
+
+    <!-- common -->
+    <string name="loading">Завантаження…</string>
+    <string name="retry">Повторити</string>
+    <string name="more_error">Не вдалося завантажити продовження. Зсуньте вибір, щоб повторити</string>
+
+    <!-- age gate -->
+    <string name="age_title">Лише для дорослих</string>
+    <string name="age_body">Застосунок показує матеріали для дорослих, зокрема відверті сцени сексуального характеру. Продовжуючи, ви підтверджуєте, що вам виповнилося 18 років (або ви досягли повноліття у вашій країні) і що перегляд таких матеріалів вам дозволено.</string>
+    <string name="age_note">Це неофіційний клієнт, він не пов\'язаний із власником сайту-джерела. Дані завантажуються безпосередньо на ваш пристрій; обране та історія зберігаються лише на ньому.</string>
+    <string name="age_exit">Мені немає 18 — вийти</string>
+    <string name="age_enter">Мені 18 або більше — увійти</string>
+
+    <!-- home -->
+    <string name="refresh">Оновити</string>
+
+    <!-- browse -->
+    <string name="categories_empty">Категорії не знайдено</string>
+    <string name="channels_empty">Канали не знайдено</string>
+    <string name="stars_empty">Моделі не знайдено</string>
+    <string name="videos_count">%1$s відео</string>
+    <string name="favorites_empty">В обраному поки нічого немає.\nВідкрийте відео та виберіть «В обране».</string>
+    <string name="history_empty">Історія перегляду порожня</string>
+    <string name="list_empty">Тут поки немає відео</string>
+
+    <!-- settings -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_quality">Якість відео за замовчуванням: %1$s</string>
+    <string name="quality_max">максимальна</string>
+    <string name="quality_upto">до %1$dp</string>
+    <string name="settings_clear_history">Очистити історію перегляду</string>
+    <string name="settings_clear_cache">Очистити кеш сторінок і зображень</string>
+    <string name="about_title">Про застосунок</string>
+    <string name="about_text">Неофіційний клієнт: дані завантажуються просто з сайту-джерела та розбираються на пристрої. Якщо сайт змінить верстку, частина розділів може перестати відкриватися до оновлення застосунку.\nОбране, підписки, історія та позиції перегляду зберігаються лише на цьому пристрої й нікуди не синхронізуються. Вхід в акаунт сайту не підтримується. Платний вміст не відтворюється.</string>
+
+    <!-- details -->
+    <string name="fav_add">В обране</string>
+    <string name="fav_remove">Прибрати з обраного</string>
+    <string name="details_channel">Інші відео: %1$s</string>
+    <string name="unavailable_removed">Відео недоступне (видалено або заблоковано у вашому регіоні)</string>
+    <string name="unavailable_nostreams">Для цього відео немає доступних потоків</string>
+
+    <!-- search -->
+    <string name="search_hint">Натисніть OK і введіть запит…</string>
+    <string name="search_min">Введіть не менше двох символів.\nНазви відео показуються російською.</string>
+    <string name="search_empty">За запитом «%1$s» нічого не знайдено</string>
+
+    <!-- player -->
+    <string name="player_error">Не вдалося відтворити відео (%1$s). Спробуйте іншу якість.</string>
+    <string name="player_other_quality">Інша якість</string>
+    <string name="player_back">Назад</string>
+    <string name="player_quality">Якість</string>
+    <string name="player_hint">◀ ▶ перемотування 30 с  ·  OK пауза</string>
+
+    <string name="row_recommended">Рекомендовані</string>
+    <string name="settings_font">Розмір шрифту: %1$s</string>
+    <string name="font_medium">середній</string>
+    <string name="font_large">великий</string>
+    <string name="pin_set">Задати PIN-код</string>
+    <string name="pin_manage">Налаштувати PIN-код</string>
+    <string name="pin_change">Змінити PIN-код</string>
+    <string name="pin_disable">Вимкнути PIN-код</string>
+    <string name="pin_enter">Введіть PIN-код</string>
+    <string name="pin_enter_current">Введіть поточний PIN-код</string>
+    <string name="pin_enter_new">Введіть новий PIN-код (4 цифри)</string>
+    <string name="pin_repeat_new">Повторіть новий PIN-код</string>
+    <string name="pin_wrong">Невірний PIN-код</string>
+    <string name="pin_mismatch">Коди не збігаються. Спробуйте ще раз</string>
+    <string name="player_back_again">Натисніть «Назад» ще раз для виходу</string>
+    <string name="player_hint_menu">"  ·  ▲ меню (%1$s)"</string>
+
+    <string name="settings_language">Мова застосунку: %1$s</string>
+    <string name="language_title">Мова застосунку</string>
+    <string name="lang_auto">авто (мова системи)</string>
+    <string name="vpn_notice">Якщо маєте проблеми із завантаженням відео — увімкніть VPN</string>
+    <string name="menu_watch">Дивитися</string>
+    <string name="menu_from_start">Дивитися спочатку</string>
+    <string name="menu_channel">Усі відео цього автора</string>
+    <string name="menu_remove_history">Прибрати з історії</string>
+    <string name="menu_no_channel">Автора цього відео не вказано</string>
+    <string name="menu_continue">Продовжити перегляд</string>
+    <string name="menu_author">Автор: %1$s</string>
+    <string name="menu_author_loading">Визначаємо автора…</string>
+    <string name="nav_subscriptions">Підписки</string>
+    <string name="sub_add">Підписатися на автора</string>
+    <string name="sub_remove">Відписатися від автора</string>
+    <string name="sub_open">Відкрити відео автора</string>
+    <string name="subscriptions_empty">Підписок поки немає.\nУтримуйте OK на відео\nта виберіть «Підписатися на автора».</string>
+    <string name="backup_export">Експорт обраного, підписок та історії</string>
+    <string name="backup_import">Імпорт обраного, підписок та історії</string>
+    <string name="backup_saved">Збережено в теку «Завантаження» (Download):\n%1$s\nОбране: %2$d, підписки: %3$d, історія: %4$d</string>
+    <string name="backup_save_failed">Не вдалося зберегти копію.</string>
+    <string name="backup_pick">Виберіть копію</string>
+    <string name="backup_none">Копій не знайдено. Покладіть файл у теку «Завантаження» (Download) цього пристрою або на флешку.</string>
+    <string name="backup_added">Імпорт завершено.\nДодано в обране: %1$d, у підписки: %2$d, в історію: %3$d.\nНічого не видалено.</string>
+    <string name="backup_bad_file">Цей файл не є копією цього застосунку або його пошкоджено.</string>
+    <string name="backup_read_failed">Не вдалося прочитати файл.</string>
+    <string name="backup_need_access">Видно не всі файли. Щоб побачити копії від попереднього встановлення або перенесені з іншого пристрою, дозвольте доступ до файлів.</string>
+    <string name="backup_allow_access">Дозволити доступ до файлів</string>
+    <string name="backup_no_settings">На цьому пристрої немає екрана для надання доступу до файлів.</string>
+    <string name="backup_denied">Без доступу до файлів це неможливо.</string>
+    <string name="ok">OK</string>
+</resources>

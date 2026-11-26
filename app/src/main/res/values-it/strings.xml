@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categorie</string>
+    <string name="nav_channels">Canali</string>
+    <string name="nav_stars">Modelle</string>
+    <string name="nav_search">Cerca</string>
+    <string name="nav_favorites">Preferiti</string>
+    <string name="nav_history">Cronologia</string>
+    <string name="nav_settings">Impostazioni</string>
+
+    <string name="err_no_connection">Nessuna connessione a internet</string>
+    <string name="err_timeout">Il server non risponde</string>
+    <string name="err_http_403">Accesso negato (403)</string>
+    <string name="err_http_404">Pagina non trovata (404)</string>
+    <string name="err_http_429">Troppe richieste (429). Attendi un momento</string>
+    <string name="err_http_5xx">Server non disponibile (%1$d)</string>
+    <string name="err_http_other">Errore del server (%1$d)</string>
+    <string name="err_empty">Risposta vuota dal server</string>
+    <string name="err_parse">Impossibile leggere i dati. Forse il sito è cambiato</string>
+    <string name="err_unexpected">Errore imprevisto: %1$s</string>
+
+    <string name="loading">Caricamento…</string>
+    <string name="retry">Riprova</string>
+    <string name="more_error">Impossibile caricare altro. Sposta la selezione per riprovare</string>
+
+    <string name="age_title">Solo per adulti</string>
+    <string name="age_body">Questa app mostra materiale per adulti, comprese scene di sesso esplicito. Continuando confermi di avere almeno 18 anni (o la maggiore età nel tuo Paese) e che la visione di questo materiale è consentita dove ti trovi.</string>
+    <string name="age_note">Client non ufficiale, senza legami con il proprietario del sito di origine. I dati vengono caricati direttamente sul tuo dispositivo; preferiti e cronologia restano solo lì.</string>
+    <string name="age_exit">Ho meno di 18 anni: esci</string>
+    <string name="age_enter">Ho 18 anni o più: entra</string>
+
+    <string name="refresh">Aggiorna</string>
+
+    <string name="categories_empty">Nessuna categoria trovata</string>
+    <string name="channels_empty">Nessun canale trovato</string>
+    <string name="stars_empty">Nessuna modella trovata</string>
+    <string name="videos_count">%1$s video</string>
+    <string name="favorites_empty">Ancora nessun preferito.\nApri un video e scegli «Aggiungi ai preferiti».</string>
+    <string name="history_empty">La cronologia è vuota</string>
+    <string name="list_empty">Qui non ci sono ancora video</string>
+
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_quality">Qualità video predefinita: %1$s</string>
+    <string name="quality_max">massima</string>
+    <string name="quality_upto">fino a %1$dp</string>
+    <string name="settings_clear_history">Cancella la cronologia</string>
+    <string name="settings_clear_cache">Svuota la cache di pagine e immagini</string>
+    <string name="about_title">Informazioni</string>
+    <string name="about_text">Client non ufficiale: i dati vengono caricati direttamente dal sito di origine ed elaborati sul dispositivo. Se il sito cambia struttura, alcune sezioni potrebbero non aprirsi fino all’aggiornamento dell’app.\nPreferiti, iscrizioni, cronologia e punti di riproduzione restano solo su questo dispositivo e non vengono sincronizzati. L’accesso a un account del sito non è supportato. I contenuti a pagamento non vengono riprodotti.</string>
+
+    <string name="fav_add">Aggiungi ai preferiti</string>
+    <string name="fav_remove">Rimuovi dai preferiti</string>
+    <string name="details_channel">Altro di %1$s</string>
+    <string name="unavailable_removed">Il video non è disponibile (rimosso o bloccato nella tua zona)</string>
+    <string name="unavailable_nostreams">Nessun flusso riproducibile per questo video</string>
+
+    <string name="search_hint">Premi OK e scrivi la ricerca…</string>
+    <string name="search_min">Inserisci almeno due caratteri.</string>
+    <string name="search_empty">Nessun risultato per «%1$s»</string>
+
+    <string name="player_error">Impossibile riprodurre il video (%1$s). Prova un’altra qualità.</string>
+    <string name="player_other_quality">Altra qualità</string>
+    <string name="player_back">Indietro</string>
+    <string name="player_quality">Qualità</string>
+    <string name="player_hint">◀ ▶ salta 30 s  ·  OK pausa</string>
+
+    <string name="row_recommended">Consigliati</string>
+    <string name="settings_font">Dimensione del testo: %1$s</string>
+    <string name="font_medium">media</string>
+    <string name="font_large">grande</string>
+    <string name="pin_set">Imposta un codice PIN</string>
+    <string name="pin_manage">Gestisci il codice PIN</string>
+    <string name="pin_change">Cambia il codice PIN</string>
+    <string name="pin_disable">Disattiva il codice PIN</string>
+    <string name="pin_enter">Inserisci il codice PIN</string>
+    <string name="pin_enter_current">Inserisci il PIN attuale</string>
+    <string name="pin_enter_new">Inserisci un nuovo PIN (4 cifre)</string>
+    <string name="pin_repeat_new">Ripeti il nuovo PIN</string>
+    <string name="pin_wrong">Codice PIN errato</string>
+    <string name="pin_mismatch">I codici non coincidono. Riprova</string>
+    <string name="player_back_again">Premi di nuovo «Indietro» per uscire</string>
+    <string name="player_hint_menu">"  ·  ▲ menu (%1$s)"</string>
+    <string name="settings_language">Lingua dell’app: %1$s</string>
+    <string name="language_title">Lingua dell’app</string>
+    <string name="lang_auto">automatica (lingua di sistema)</string>
+    <string name="vpn_notice">Se i video non si caricano bene, attiva una VPN</string>
+    <string name="menu_watch">Guarda</string>
+    <string name="menu_from_start">Guarda dall’inizio</string>
+    <string name="menu_channel">Tutti i video di questo autore</string>
+    <string name="menu_remove_history">Rimuovi dalla cronologia</string>
+    <string name="menu_no_channel">L’autore di questo video non è indicato</string>
+    <string name="menu_continue">Continua a guardare</string>
+    <string name="menu_author">Autore: %1$s</string>
+    <string name="menu_author_loading">Ricerca dell’autore…</string>
+    <string name="nav_subscriptions">Iscrizioni</string>
+    <string name="sub_add">Iscriviti all’autore</string>
+    <string name="sub_remove">Annulla l’iscrizione all’autore</string>
+    <string name="sub_open">Apri i video dell’autore</string>
+    <string name="subscriptions_empty">Ancora nessuna iscrizione.\nTieni premuto OK su un video\ne scegli «Iscriviti all’autore».</string>
+    <string name="backup_export">Esporta preferiti, iscrizioni e cronologia</string>
+    <string name="backup_import">Importa preferiti, iscrizioni e cronologia</string>
+    <string name="backup_saved">Salvato nella cartella «Download»:\n%1$s\nPreferiti: %2$d, iscrizioni: %3$d, cronologia: %4$d</string>
+    <string name="backup_save_failed">Impossibile salvare la copia.</string>
+    <string name="backup_pick">Scegli una copia</string>
+    <string name="backup_none">Nessuna copia trovata. Metti il file nella cartella «Download» di questo dispositivo o su una chiavetta USB.</string>
+    <string name="backup_added">Importazione completata.\nAggiunti ai preferiti: %1$d, alle iscrizioni: %2$d, alla cronologia: %3$d.\nNon è stato rimosso nulla.</string>
+    <string name="backup_bad_file">Questo file non è una copia creata dall’app oppure è danneggiato.</string>
+    <string name="backup_read_failed">Impossibile leggere il file.</string>
+    <string name="backup_need_access">Non tutti i file sono visibili. Per vedere le copie di un’installazione precedente o portate da un altro dispositivo, consenti l’accesso ai file.</string>
+    <string name="backup_allow_access">Consenti l’accesso ai file</string>
+    <string name="backup_no_settings">Questo dispositivo non ha una schermata per concedere l’accesso ai file.</string>
+    <string name="backup_denied">Senza accesso ai file non è possibile.</string>
+    <string name="ok">OK</string>
+</resources>

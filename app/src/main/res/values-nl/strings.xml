@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categorieën</string>
+    <string name="nav_channels">Kanalen</string>
+    <string name="nav_stars">Modellen</string>
+    <string name="nav_search">Zoeken</string>
+    <string name="nav_favorites">Favorieten</string>
+    <string name="nav_history">Geschiedenis</string>
+    <string name="nav_settings">Instellingen</string>
+
+    <string name="err_no_connection">Geen internetverbinding</string>
+    <string name="err_timeout">De server reageert niet</string>
+    <string name="err_http_403">Toegang geweigerd (403)</string>
+    <string name="err_http_404">Pagina niet gevonden (404)</string>
+    <string name="err_http_429">Te veel verzoeken (429). Wacht even</string>
+    <string name="err_http_5xx">Server niet beschikbaar (%1$d)</string>
+    <string name="err_http_other">Serverfout (%1$d)</string>
+    <string name="err_empty">Leeg antwoord van de server</string>
+    <string name="err_parse">De gegevens konden niet worden gelezen. Misschien is de site veranderd</string>
+    <string name="err_unexpected">Onverwachte fout: %1$s</string>
+
+    <string name="loading">Laden…</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="more_error">Meer laden is niet gelukt. Verplaats de selectie om het opnieuw te proberen</string>
+
+    <string name="age_title">Alleen voor volwassenen</string>
+    <string name="age_body">Deze app toont materiaal voor volwassenen, waaronder expliciete seksuele scènes. Door verder te gaan bevestig je dat je minstens 18 jaar bent (of meerderjarig in je land) en dat het bekijken van zulk materiaal is toegestaan waar je bent.</string>
+    <string name="age_note">Dit is een onofficiële client, niet verbonden met de eigenaar van de bronsite. De gegevens worden rechtstreeks op je apparaat geladen; favorieten en geschiedenis staan alleen daar.</string>
+    <string name="age_exit">Ik ben onder de 18 – afsluiten</string>
+    <string name="age_enter">Ik ben 18 of ouder – doorgaan</string>
+
+    <string name="refresh">Vernieuwen</string>
+
+    <string name="categories_empty">Geen categorieën gevonden</string>
+    <string name="channels_empty">Geen kanalen gevonden</string>
+    <string name="stars_empty">Geen modellen gevonden</string>
+    <string name="videos_count">%1$s video’s</string>
+    <string name="favorites_empty">Nog geen favorieten.\nOpen een video en kies “Aan favorieten toevoegen”.</string>
+    <string name="history_empty">De kijkgeschiedenis is leeg</string>
+    <string name="list_empty">Hier zijn nog geen video’s</string>
+
+    <string name="settings_title">Instellingen</string>
+    <string name="settings_quality">Standaard videokwaliteit: %1$s</string>
+    <string name="quality_max">maximaal</string>
+    <string name="quality_upto">tot %1$dp</string>
+    <string name="settings_clear_history">Kijkgeschiedenis wissen</string>
+    <string name="settings_clear_cache">Cache van pagina’s en afbeeldingen wissen</string>
+    <string name="about_title">Over de app</string>
+    <string name="about_text">Onofficiële client: de gegevens worden rechtstreeks van de bronsite geladen en op het apparaat verwerkt. Als de site zijn opmaak verandert, openen sommige onderdelen mogelijk niet tot de app is bijgewerkt.\nFavorieten, abonnementen, geschiedenis en afspeelposities staan alleen op dit apparaat en worden niet gesynchroniseerd. Inloggen bij de site wordt niet ondersteund. Betaalde inhoud wordt niet afgespeeld.</string>
+
+    <string name="fav_add">Aan favorieten toevoegen</string>
+    <string name="fav_remove">Uit favorieten verwijderen</string>
+    <string name="details_channel">Meer van %1$s</string>
+    <string name="unavailable_removed">De video is niet beschikbaar (verwijderd of geblokkeerd in je regio)</string>
+    <string name="unavailable_nostreams">Geen afspeelbare stream voor deze video</string>
+
+    <string name="search_hint">Druk op OK en typ je zoekopdracht…</string>
+    <string name="search_min">Voer minstens twee tekens in.</string>
+    <string name="search_empty">Niets gevonden voor “%1$s”</string>
+
+    <string name="player_error">De video kon niet worden afgespeeld (%1$s). Probeer een andere kwaliteit.</string>
+    <string name="player_other_quality">Andere kwaliteit</string>
+    <string name="player_back">Terug</string>
+    <string name="player_quality">Kwaliteit</string>
+    <string name="player_hint">◀ ▶ 30 s spoelen  ·  OK pauze</string>
+
+    <string name="row_recommended">Aanbevolen</string>
+    <string name="settings_font">Tekstgrootte: %1$s</string>
+    <string name="font_medium">normaal</string>
+    <string name="font_large">groot</string>
+    <string name="pin_set">Pincode instellen</string>
+    <string name="pin_manage">Pincode beheren</string>
+    <string name="pin_change">Pincode wijzigen</string>
+    <string name="pin_disable">Pincode uitschakelen</string>
+    <string name="pin_enter">Voer de pincode in</string>
+    <string name="pin_enter_current">Voer de huidige pincode in</string>
+    <string name="pin_enter_new">Voer een nieuwe pincode in (4 cijfers)</string>
+    <string name="pin_repeat_new">Herhaal de nieuwe pincode</string>
+    <string name="pin_wrong">Onjuiste pincode</string>
+    <string name="pin_mismatch">De codes komen niet overeen. Probeer het opnieuw</string>
+    <string name="player_back_again">Druk nogmaals op “Terug” om af te sluiten</string>
+    <string name="player_hint_menu">"  ·  ▲ menu (%1$s)"</string>
+    <string name="settings_language">Taal van de app: %1$s</string>
+    <string name="language_title">Taal van de app</string>
+    <string name="lang_auto">automatisch (systeemtaal)</string>
+    <string name="vpn_notice">Laden video’s niet goed? Zet een VPN aan</string>
+    <string name="menu_watch">Kijken</string>
+    <string name="menu_from_start">Vanaf het begin kijken</string>
+    <string name="menu_channel">Alle video’s van deze maker</string>
+    <string name="menu_remove_history">Uit geschiedenis verwijderen</string>
+    <string name="menu_no_channel">De maker van deze video is niet vermeld</string>
+    <string name="menu_continue">Verder kijken</string>
+    <string name="menu_author">Maker: %1$s</string>
+    <string name="menu_author_loading">Maker wordt opgezocht…</string>
+    <string name="nav_subscriptions">Abonnementen</string>
+    <string name="sub_add">Abonneren op maker</string>
+    <string name="sub_remove">Abonnement op maker opzeggen</string>
+    <string name="sub_open">Video’s van maker openen</string>
+    <string name="subscriptions_empty">Nog geen abonnementen.\nHoud OK ingedrukt op een video\nen kies “Abonneren op maker”.</string>
+    <string name="backup_export">Favorieten, abonnementen en geschiedenis exporteren</string>
+    <string name="backup_import">Favorieten, abonnementen en geschiedenis importeren</string>
+    <string name="backup_saved">Opgeslagen in de map “Download”:\n%1$s\nFavorieten: %2$d, abonnementen: %3$d, geschiedenis: %4$d</string>
+    <string name="backup_save_failed">De kopie kon niet worden opgeslagen.</string>
+    <string name="backup_pick">Kies een kopie</string>
+    <string name="backup_none">Geen kopieën gevonden. Zet het bestand in de map “Download” op dit apparaat of op een USB-stick.</string>
+    <string name="backup_added">Importeren voltooid.\nToegevoegd aan favorieten: %1$d, abonnementen: %2$d, geschiedenis: %3$d.\nEr is niets verwijderd.</string>
+    <string name="backup_bad_file">Dit bestand is geen kopie van de app of het is beschadigd.</string>
+    <string name="backup_read_failed">Het bestand kon niet worden gelezen.</string>
+    <string name="backup_need_access">Niet alle bestanden zijn zichtbaar. Sta toegang tot bestanden toe om kopieën van een eerdere installatie of van een ander apparaat te zien.</string>
+    <string name="backup_allow_access">Toegang tot bestanden toestaan</string>
+    <string name="backup_no_settings">Dit apparaat heeft geen scherm om toegang tot bestanden te geven.</string>
+    <string name="backup_denied">Zonder toegang tot bestanden kan dit niet.</string>
+    <string name="ok">OK</string>
+</resources>

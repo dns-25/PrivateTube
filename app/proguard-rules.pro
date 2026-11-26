@@ -1,0 +1,5 @@
+-keepattributes *Annotation*, InnerClasses, Signature
+-dontwarn org.jsoup.**
+-keep,includedescriptorclasses class com.privatetube.app.**$$serializer { *; }
+-keepclassmembers class com.privatetube.app.** { *** Companion; }
+-keepclasseswithmembers class com.privatetube.app.** { kotlinx.serialization.KSerializer serializer(...); }

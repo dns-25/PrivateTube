@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">ホーム</string>
+    <string name="nav_categories">カテゴリ</string>
+    <string name="nav_channels">チャンネル</string>
+    <string name="nav_stars">モデル</string>
+    <string name="nav_search">検索</string>
+    <string name="nav_favorites">お気に入り</string>
+    <string name="nav_history">履歴</string>
+    <string name="nav_settings">設定</string>
+
+    <string name="err_no_connection">インターネットに接続されていません</string>
+    <string name="err_timeout">サーバーが応答しません</string>
+    <string name="err_http_403">アクセスが拒否されました（403）</string>
+    <string name="err_http_404">ページが見つかりません（404）</string>
+    <string name="err_http_429">リクエストが多すぎます（429）。しばらくお待ちください</string>
+    <string name="err_http_5xx">サーバーを利用できません（%1$d）</string>
+    <string name="err_http_other">サーバーエラー（%1$d）</string>
+    <string name="err_empty">サーバーからの応答が空です</string>
+    <string name="err_parse">データを読み取れませんでした。サイトが変更された可能性があります</string>
+    <string name="err_unexpected">予期しないエラー: %1$s</string>
+
+    <string name="loading">読み込み中…</string>
+    <string name="retry">再試行</string>
+    <string name="more_error">続きを読み込めませんでした。選択を動かすと再試行します</string>
+
+    <string name="age_title">成人向け</string>
+    <string name="age_body">このアプリは、露骨な性的描写を含む成人向けコンテンツを表示します。続行すると、あなたが18歳以上（またはお住まいの国の成人年齢以上）であり、現在地でこうしたコンテンツの閲覧が認められていることを確認したことになります。</string>
+    <string name="age_note">非公式クライアントであり、配信元サイトの運営者とは関係ありません。データは端末に直接読み込まれ、お気に入りと履歴は端末内にのみ保存されます。</string>
+    <string name="age_exit">18歳未満です（終了）</string>
+    <string name="age_enter">18歳以上です（入る）</string>
+
+    <string name="refresh">更新</string>
+
+    <string name="categories_empty">カテゴリが見つかりません</string>
+    <string name="channels_empty">チャンネルが見つかりません</string>
+    <string name="stars_empty">モデルが見つかりません</string>
+    <string name="videos_count">動画 %1$s本</string>
+    <string name="favorites_empty">お気に入りはまだありません。\n動画を開いて「お気に入りに追加」を選んでください。</string>
+    <string name="history_empty">視聴履歴はありません</string>
+    <string name="list_empty">まだ動画はありません</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_quality">標準の画質: %1$s</string>
+    <string name="quality_max">最高</string>
+    <string name="quality_upto">%1$dpまで</string>
+    <string name="settings_clear_history">視聴履歴を消去</string>
+    <string name="settings_clear_cache">ページと画像のキャッシュを消去</string>
+    <string name="about_title">このアプリについて</string>
+    <string name="about_text">非公式クライアントです。データは配信元サイトから直接読み込まれ、端末内で処理されます。サイトの構成が変わると、アプリを更新するまで一部の画面が開けなくなることがあります。\nお気に入り、登録チャンネル、履歴、再生位置はこの端末にのみ保存され、同期されません。サイトのアカウントへのログインには対応していません。有料コンテンツは再生できません。</string>
+
+    <string name="fav_add">お気に入りに追加</string>
+    <string name="fav_remove">お気に入りから削除</string>
+    <string name="details_channel">%1$sの他の動画</string>
+    <string name="unavailable_removed">この動画は利用できません（削除されたか、お住まいの地域でブロックされています）</string>
+    <string name="unavailable_nostreams">この動画には再生できるストリームがありません</string>
+
+    <string name="search_hint">OKを押してキーワードを入力…</string>
+    <string name="search_min">2文字以上入力してください。</string>
+    <string name="search_empty">「%1$s」は見つかりませんでした</string>
+
+    <string name="player_error">動画を再生できませんでした（%1$s）。別の画質をお試しください。</string>
+    <string name="player_other_quality">別の画質</string>
+    <string name="player_back">戻る</string>
+    <string name="player_quality">画質</string>
+    <string name="player_hint">◀ ▶ 30秒スキップ  ·  OK 一時停止</string>
+
+    <string name="row_recommended">おすすめ</string>
+    <string name="settings_font">文字サイズ: %1$s</string>
+    <string name="font_medium">中</string>
+    <string name="font_large">大</string>
+    <string name="pin_set">PINコードを設定</string>
+    <string name="pin_manage">PINコードの管理</string>
+    <string name="pin_change">PINコードを変更</string>
+    <string name="pin_disable">PINコードを解除</string>
+    <string name="pin_enter">PINコードを入力</string>
+    <string name="pin_enter_current">現在のPINコードを入力</string>
+    <string name="pin_enter_new">新しいPINコードを入力（4桁）</string>
+    <string name="pin_repeat_new">新しいPINコードをもう一度入力</string>
+    <string name="pin_wrong">PINコードが違います</string>
+    <string name="pin_mismatch">コードが一致しません。もう一度お試しください</string>
+    <string name="player_back_again">もう一度「戻る」を押すと終了します</string>
+    <string name="player_hint_menu">"  ·  ▲ メニュー（%1$s）"</string>
+    <string name="settings_language">アプリの言語: %1$s</string>
+    <string name="language_title">アプリの言語</string>
+    <string name="lang_auto">自動（システムの言語）</string>
+    <string name="vpn_notice">動画がうまく読み込めない場合は、VPNをオンにしてください</string>
+    <string name="menu_watch">再生</string>
+    <string name="menu_from_start">最初から再生</string>
+    <string name="menu_channel">この投稿者の動画をすべて表示</string>
+    <string name="menu_remove_history">履歴から削除</string>
+    <string name="menu_no_channel">この動画の投稿者は記載されていません</string>
+    <string name="menu_continue">続きから再生</string>
+    <string name="menu_author">投稿者: %1$s</string>
+    <string name="menu_author_loading">投稿者を確認中…</string>
+    <string name="nav_subscriptions">登録チャンネル</string>
+    <string name="sub_add">投稿者を登録</string>
+    <string name="sub_remove">投稿者の登録を解除</string>
+    <string name="sub_open">投稿者の動画を開く</string>
+    <string name="subscriptions_empty">登録はまだありません。\n動画の上でOKを長押しして\n「投稿者を登録」を選んでください。</string>
+    <string name="backup_export">お気に入り・登録・履歴を書き出す</string>
+    <string name="backup_import">お気に入り・登録・履歴を読み込む</string>
+    <string name="backup_saved">「Download」フォルダに保存しました:\n%1$s\nお気に入り: %2$d、登録: %3$d、履歴: %4$d</string>
+    <string name="backup_save_failed">コピーを保存できませんでした。</string>
+    <string name="backup_pick">コピーを選択</string>
+    <string name="backup_none">コピーが見つかりません。ファイルをこの端末の「Download」フォルダかUSBメモリに入れてください。</string>
+    <string name="backup_added">読み込みが完了しました。\n追加: お気に入り %1$d、登録 %2$d、履歴 %3$d。\n削除されたものはありません。</string>
+    <string name="backup_bad_file">このファイルはアプリで作成したコピーではないか、破損しています。</string>
+    <string name="backup_read_failed">ファイルを読み取れませんでした。</string>
+    <string name="backup_need_access">一部のファイルが表示されていません。以前のインストールや別の端末のコピーを表示するには、ファイルへのアクセスを許可してください。</string>
+    <string name="backup_allow_access">ファイルへのアクセスを許可</string>
+    <string name="backup_no_settings">この端末には、ファイルへのアクセスを許可する画面がありません。</string>
+    <string name="backup_denied">ファイルへのアクセスがないと実行できません。</string>
+    <string name="ok">OK</string>
+</resources>

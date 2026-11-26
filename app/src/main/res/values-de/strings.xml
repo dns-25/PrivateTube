@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">Start</string>
+    <string name="nav_categories">Kategorien</string>
+    <string name="nav_channels">Kanäle</string>
+    <string name="nav_stars">Models</string>
+    <string name="nav_search">Suche</string>
+    <string name="nav_favorites">Favoriten</string>
+    <string name="nav_history">Verlauf</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <string name="err_no_connection">Keine Internetverbindung</string>
+    <string name="err_timeout">Der Server antwortet nicht</string>
+    <string name="err_http_403">Zugriff verweigert (403)</string>
+    <string name="err_http_404">Seite nicht gefunden (404)</string>
+    <string name="err_http_429">Zu viele Anfragen (429). Bitte kurz warten</string>
+    <string name="err_http_5xx">Server nicht verfügbar (%1$d)</string>
+    <string name="err_http_other">Serverfehler (%1$d)</string>
+    <string name="err_empty">Leere Antwort vom Server</string>
+    <string name="err_parse">Die Daten konnten nicht gelesen werden. Vielleicht wurde die Website geändert</string>
+    <string name="err_unexpected">Unerwarteter Fehler: %1$s</string>
+
+    <string name="loading">Wird geladen…</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="more_error">Weitere Einträge konnten nicht geladen werden. Auswahl bewegen, um es erneut zu versuchen</string>
+
+    <string name="age_title">Nur für Erwachsene</string>
+    <string name="age_body">Diese App zeigt Inhalte für Erwachsene, darunter explizite sexuelle Szenen. Wenn du fortfährst, bestätigst du, dass du mindestens 18 Jahre alt bist (oder in deinem Land volljährig) und dass das Ansehen solcher Inhalte dort, wo du bist, erlaubt ist.</string>
+    <string name="age_note">Inoffizieller Client ohne Verbindung zum Betreiber der Quell-Website. Die Daten werden direkt auf dein Gerät geladen; Favoriten und Verlauf werden nur dort gespeichert.</string>
+    <string name="age_exit">Ich bin unter 18 – beenden</string>
+    <string name="age_enter">Ich bin 18 oder älter – weiter</string>
+
+    <string name="refresh">Aktualisieren</string>
+
+    <string name="categories_empty">Keine Kategorien gefunden</string>
+    <string name="channels_empty">Keine Kanäle gefunden</string>
+    <string name="stars_empty">Keine Models gefunden</string>
+    <string name="videos_count">%1$s Videos</string>
+    <string name="favorites_empty">Noch keine Favoriten.\nÖffne ein Video und wähle „Zu Favoriten hinzufügen“.</string>
+    <string name="history_empty">Der Verlauf ist leer</string>
+    <string name="list_empty">Hier gibt es noch keine Videos</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_quality">Standard-Videoqualität: %1$s</string>
+    <string name="quality_max">maximal</string>
+    <string name="quality_upto">bis %1$dp</string>
+    <string name="settings_clear_history">Verlauf löschen</string>
+    <string name="settings_clear_cache">Seiten- und Bildcache leeren</string>
+    <string name="about_title">Über die App</string>
+    <string name="about_text">Inoffizieller Client: Die Daten werden direkt von der Quell-Website geladen und auf dem Gerät verarbeitet. Wenn die Website ihren Aufbau ändert, lassen sich manche Bereiche bis zu einem Update der App eventuell nicht öffnen.\nFavoriten, Abos, Verlauf und Wiedergabepositionen werden nur auf diesem Gerät gespeichert und nicht synchronisiert. Eine Anmeldung bei der Website wird nicht unterstützt. Bezahlinhalte werden nicht abgespielt.</string>
+
+    <string name="fav_add">Zu Favoriten hinzufügen</string>
+    <string name="fav_remove">Aus Favoriten entfernen</string>
+    <string name="details_channel">Mehr von %1$s</string>
+    <string name="unavailable_removed">Das Video ist nicht verfügbar (entfernt oder in deiner Region gesperrt)</string>
+    <string name="unavailable_nostreams">Für dieses Video gibt es keinen abspielbaren Stream</string>
+
+    <string name="search_hint">OK drücken und Suchbegriff eingeben…</string>
+    <string name="search_min">Gib mindestens zwei Zeichen ein.</string>
+    <string name="search_empty">Nichts gefunden für „%1$s“</string>
+
+    <string name="player_error">Das Video konnte nicht abgespielt werden (%1$s). Versuche eine andere Qualität.</string>
+    <string name="player_other_quality">Andere Qualität</string>
+    <string name="player_back">Zurück</string>
+    <string name="player_quality">Qualität</string>
+    <string name="player_hint">◀ ▶ 30 s spulen  ·  OK Pause</string>
+
+    <string name="row_recommended">Empfohlen</string>
+    <string name="settings_font">Schriftgröße: %1$s</string>
+    <string name="font_medium">mittel</string>
+    <string name="font_large">groß</string>
+    <string name="pin_set">PIN-Code festlegen</string>
+    <string name="pin_manage">PIN-Code verwalten</string>
+    <string name="pin_change">PIN-Code ändern</string>
+    <string name="pin_disable">PIN-Code ausschalten</string>
+    <string name="pin_enter">PIN-Code eingeben</string>
+    <string name="pin_enter_current">Aktuellen PIN-Code eingeben</string>
+    <string name="pin_enter_new">Neuen PIN-Code eingeben (4 Ziffern)</string>
+    <string name="pin_repeat_new">Neuen PIN-Code wiederholen</string>
+    <string name="pin_wrong">Falscher PIN-Code</string>
+    <string name="pin_mismatch">Die Codes stimmen nicht überein. Versuche es erneut</string>
+    <string name="player_back_again">Zum Beenden noch einmal „Zurück“ drücken</string>
+    <string name="player_hint_menu">"  ·  ▲ Menü (%1$s)"</string>
+    <string name="settings_language">Sprache der App: %1$s</string>
+    <string name="language_title">Sprache der App</string>
+    <string name="lang_auto">automatisch (Systemsprache)</string>
+    <string name="vpn_notice">Wenn Videos nicht richtig laden, schalte ein VPN ein</string>
+    <string name="menu_watch">Ansehen</string>
+    <string name="menu_from_start">Von Anfang an ansehen</string>
+    <string name="menu_channel">Alle Videos dieses Autors</string>
+    <string name="menu_remove_history">Aus dem Verlauf entfernen</string>
+    <string name="menu_no_channel">Für dieses Video ist kein Autor angegeben</string>
+    <string name="menu_continue">Weiterschauen</string>
+    <string name="menu_author">Autor: %1$s</string>
+    <string name="menu_author_loading">Autor wird ermittelt…</string>
+    <string name="nav_subscriptions">Abos</string>
+    <string name="sub_add">Autor abonnieren</string>
+    <string name="sub_remove">Autor nicht mehr abonnieren</string>
+    <string name="sub_open">Videos des Autors öffnen</string>
+    <string name="subscriptions_empty">Noch keine Abos.\nHalte OK auf einem Video gedrückt\nund wähle „Autor abonnieren“.</string>
+    <string name="backup_export">Favoriten, Abos und Verlauf exportieren</string>
+    <string name="backup_import">Favoriten, Abos und Verlauf importieren</string>
+    <string name="backup_saved">Im Ordner „Download“ gespeichert:\n%1$s\nFavoriten: %2$d, Abos: %3$d, Verlauf: %4$d</string>
+    <string name="backup_save_failed">Die Kopie konnte nicht gespeichert werden.</string>
+    <string name="backup_pick">Kopie auswählen</string>
+    <string name="backup_none">Keine Kopien gefunden. Lege die Datei in den Ordner „Download“ dieses Geräts oder auf einen USB-Stick.</string>
+    <string name="backup_added">Import abgeschlossen.\nHinzugefügt zu Favoriten: %1$d, Abos: %2$d, Verlauf: %3$d.\nNichts wurde entfernt.</string>
+    <string name="backup_bad_file">Diese Datei ist keine Kopie der App oder sie ist beschädigt.</string>
+    <string name="backup_read_failed">Die Datei konnte nicht gelesen werden.</string>
+    <string name="backup_need_access">Nicht alle Dateien sind sichtbar. Um Kopien aus einer früheren Installation oder von einem anderen Gerät zu sehen, erlaube den Zugriff auf Dateien.</string>
+    <string name="backup_allow_access">Zugriff auf Dateien erlauben</string>
+    <string name="backup_no_settings">Auf diesem Gerät gibt es keinen Bildschirm, um den Dateizugriff zu erlauben.</string>
+    <string name="backup_denied">Ohne Zugriff auf Dateien ist das nicht möglich.</string>
+    <string name="ok">OK</string>
+</resources>

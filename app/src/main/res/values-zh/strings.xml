@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <string name="nav_home">首页</string>
+    <string name="nav_categories">分类</string>
+    <string name="nav_channels">频道</string>
+    <string name="nav_stars">模特</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_favorites">收藏</string>
+    <string name="nav_history">历史记录</string>
+    <string name="nav_settings">设置</string>
+
+    <string name="err_no_connection">没有网络连接</string>
+    <string name="err_timeout">服务器无响应</string>
+    <string name="err_http_403">访问被拒绝（403）</string>
+    <string name="err_http_404">找不到页面（404）</string>
+    <string name="err_http_429">请求过多（429），请稍候</string>
+    <string name="err_http_5xx">服务器不可用（%1$d）</string>
+    <string name="err_http_other">服务器错误（%1$d）</string>
+    <string name="err_empty">服务器返回空内容</string>
+    <string name="err_parse">无法读取数据，网站可能已改版</string>
+    <string name="err_unexpected">意外错误：%1$s</string>
+
+    <string name="loading">加载中…</string>
+    <string name="retry">重试</string>
+    <string name="more_error">无法加载更多内容。移动选择框即可重试</string>
+
+    <string name="age_title">仅限成人</string>
+    <string name="age_body">本应用会显示成人内容，包括露骨的性场面。继续即表示您确认自己已年满18周岁（或达到所在国家的法定成年年龄），并且您所在地允许观看此类内容。</string>
+    <string name="age_note">本应用是非官方客户端，与来源网站的所有者无关。数据直接加载到您的设备；收藏和历史记录仅保存在本机。</string>
+    <string name="age_exit">我未满18岁，退出</string>
+    <string name="age_enter">我已年满18岁，进入</string>
+
+    <string name="refresh">刷新</string>
+
+    <string name="categories_empty">未找到分类</string>
+    <string name="channels_empty">未找到频道</string>
+    <string name="stars_empty">未找到模特</string>
+    <string name="videos_count">%1$s 个视频</string>
+    <string name="favorites_empty">还没有收藏。\n打开视频并选择“加入收藏”。</string>
+    <string name="history_empty">观看记录为空</string>
+    <string name="list_empty">这里还没有视频</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_quality">默认画质：%1$s</string>
+    <string name="quality_max">最高</string>
+    <string name="quality_upto">最高 %1$dp</string>
+    <string name="settings_clear_history">清除观看记录</string>
+    <string name="settings_clear_cache">清除页面和图片缓存</string>
+    <string name="about_title">关于</string>
+    <string name="about_text">非官方客户端：数据直接从来源网站加载，并在设备上解析。如果网站改版，在应用更新之前部分栏目可能无法打开。\n收藏、订阅、历史记录和播放进度仅保存在本设备上，不会同步。不支持登录网站账号。无法播放付费内容。</string>
+
+    <string name="fav_add">加入收藏</string>
+    <string name="fav_remove">取消收藏</string>
+    <string name="details_channel">%1$s 的更多视频</string>
+    <string name="unavailable_removed">视频无法观看（已删除或在您所在地区被屏蔽）</string>
+    <string name="unavailable_nostreams">此视频没有可播放的视频流</string>
+
+    <string name="search_hint">按 OK 键并输入搜索内容…</string>
+    <string name="search_min">请至少输入两个字符。</string>
+    <string name="search_empty">未找到与“%1$s”相关的内容</string>
+
+    <string name="player_error">无法播放视频（%1$s）。请尝试其他画质。</string>
+    <string name="player_other_quality">其他画质</string>
+    <string name="player_back">返回</string>
+    <string name="player_quality">画质</string>
+    <string name="player_hint">◀ ▶ 快进快退30秒  ·  OK 暂停</string>
+
+    <string name="row_recommended">推荐</string>
+    <string name="settings_font">文字大小：%1$s</string>
+    <string name="font_medium">中</string>
+    <string name="font_large">大</string>
+    <string name="pin_set">设置 PIN 码</string>
+    <string name="pin_manage">管理 PIN 码</string>
+    <string name="pin_change">修改 PIN 码</string>
+    <string name="pin_disable">关闭 PIN 码</string>
+    <string name="pin_enter">请输入 PIN 码</string>
+    <string name="pin_enter_current">请输入当前 PIN 码</string>
+    <string name="pin_enter_new">请输入新 PIN 码（4位数字）</string>
+    <string name="pin_repeat_new">请再次输入新 PIN 码</string>
+    <string name="pin_wrong">PIN 码错误</string>
+    <string name="pin_mismatch">两次输入不一致，请重试</string>
+    <string name="player_back_again">再按一次返回键退出</string>
+    <string name="player_hint_menu">"  ·  ▲ 菜单（%1$s）"</string>
+    <string name="settings_language">应用语言：%1$s</string>
+    <string name="language_title">应用语言</string>
+    <string name="lang_auto">自动（跟随系统）</string>
+    <string name="vpn_notice">如果视频加载有问题，请开启 VPN</string>
+    <string name="menu_watch">观看</string>
+    <string name="menu_from_start">从头观看</string>
+    <string name="menu_channel">查看该作者的全部视频</string>
+    <string name="menu_remove_history">从历史记录中删除</string>
+    <string name="menu_no_channel">此视频未注明作者</string>
+    <string name="menu_continue">继续观看</string>
+    <string name="menu_author">作者：%1$s</string>
+    <string name="menu_author_loading">正在查找作者…</string>
+    <string name="nav_subscriptions">订阅</string>
+    <string name="sub_add">订阅作者</string>
+    <string name="sub_remove">取消订阅作者</string>
+    <string name="sub_open">打开作者的视频</string>
+    <string name="subscriptions_empty">还没有订阅。\n在视频上长按 OK 键\n然后选择“订阅作者”。</string>
+    <string name="backup_export">导出收藏、订阅和历史记录</string>
+    <string name="backup_import">导入收藏、订阅和历史记录</string>
+    <string name="backup_saved">已保存到“Download”文件夹：\n%1$s\n收藏：%2$d，订阅：%3$d，历史记录：%4$d</string>
+    <string name="backup_save_failed">无法保存备份。</string>
+    <string name="backup_pick">选择备份</string>
+    <string name="backup_none">未找到备份。请将文件放入本设备的“Download”文件夹或 U 盘。</string>
+    <string name="backup_added">导入完成。\n新增收藏：%1$d，订阅：%2$d，历史记录：%3$d。\n没有删除任何内容。</string>
+    <string name="backup_bad_file">此文件不是本应用创建的备份，或已损坏。</string>
+    <string name="backup_read_failed">无法读取文件。</string>
+    <string name="backup_need_access">部分文件不可见。要查看以前安装时留下的或从其他设备拷来的备份，请允许访问文件。</string>
+    <string name="backup_allow_access">允许访问文件</string>
+    <string name="backup_no_settings">此设备没有授予文件访问权限的界面。</string>
+    <string name="backup_denied">没有文件访问权限无法完成此操作。</string>
+    <string name="ok">OK</string>
+</resources>

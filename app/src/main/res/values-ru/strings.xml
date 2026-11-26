@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrivateTube</string>
+
+    <!-- navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_categories">Категории</string>
+    <string name="nav_channels">Каналы</string>
+    <string name="nav_stars">Модели</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_history">История</string>
+    <string name="nav_settings">Настройки</string>
+
+    <!-- errors -->
+    <string name="err_no_connection">Нет подключения к интернету</string>
+    <string name="err_timeout">Сервер не отвечает</string>
+    <string name="err_http_403">Доступ запрещён (403)</string>
+    <string name="err_http_404">Страница не найдена (404)</string>
+    <string name="err_http_429">Слишком много запросов (429). Подождите немного</string>
+    <string name="err_http_5xx">Сервер недоступен (%1$d)</string>
+    <string name="err_http_other">Ошибка сервера (%1$d)</string>
+    <string name="err_empty">Пустой ответ сервера</string>
+    <string name="err_parse">Не удалось разобрать данные. Возможно, сайт изменился</string>
+    <string name="err_unexpected">Непредвиденная ошибка: %1$s</string>
+
+    <!-- common -->
+    <string name="loading">Загрузка…</string>
+    <string name="retry">Повторить</string>
+    <string name="more_error">Не удалось загрузить продолжение. Сдвиньте выбор, чтобы повторить</string>
+
+    <!-- age gate -->
+    <string name="age_title">Только для взрослых</string>
+    <string name="age_body">Приложение показывает материалы для взрослых, включая откровенные сцены сексуального характера. Продолжая, вы подтверждаете, что вам исполнилось 18 лет (или вы достигли возраста совершеннолетия в вашей стране) и что просмотр таких материалов у вас разрешён.</string>
+    <string name="age_note">Это неофициальный клиент, он не связан с владельцем сайта-источника. Данные загружаются непосредственно на ваше устройство; избранное и история хранятся только на нём.</string>
+    <string name="age_exit">Мне нет 18 лет — выйти</string>
+    <string name="age_enter">Мне 18 или больше — войти</string>
+
+    <!-- home -->
+    <string name="refresh">Обновить</string>
+
+    <!-- browse -->
+    <string name="categories_empty">Категории не найдены</string>
+    <string name="channels_empty">Каналы не найдены</string>
+    <string name="stars_empty">Модели не найдены</string>
+    <string name="videos_count">%1$s видео</string>
+    <string name="favorites_empty">В избранном пока ничего нет.\nОткройте видео и выберите «В избранное».</string>
+    <string name="history_empty">История просмотра пуста</string>
+    <string name="list_empty">Здесь пока нет видео</string>
+
+    <!-- settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_quality">Качество видео по умолчанию: %1$s</string>
+    <string name="quality_max">максимальное</string>
+    <string name="quality_upto">до %1$dp</string>
+    <string name="settings_clear_history">Очистить историю просмотра</string>
+    <string name="settings_clear_cache">Очистить кэш страниц и картинок</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_text">Неофициальный клиент: данные загружаются прямо с сайта-источника и разбираются на устройстве. Если сайт изменит вёрстку, часть разделов может перестать открываться до обновления приложения.\nИзбранное, подписки, история и позиции просмотра хранятся только на этом устройстве и никуда не синхронизируются. Вход в аккаунт сайта не поддерживается. Платный контент не воспроизводится.</string>
+
+    <!-- details -->
+    <string name="fav_add">В избранное</string>
+    <string name="fav_remove">Убрать из избранного</string>
+    <string name="details_channel">Другие видео: %1$s</string>
+    <string name="unavailable_removed">Видео недоступно (удалено или заблокировано в вашем регионе)</string>
+    <string name="unavailable_nostreams">Для этого видео нет доступных потоков</string>
+
+    <!-- search -->
+    <string name="search_hint">Нажмите OK и введите запрос…</string>
+    <string name="search_min">Введите не меньше двух символов.\nПоиск работает и по-русски.</string>
+    <string name="search_empty">По запросу «%1$s» ничего не найдено</string>
+
+    <!-- player -->
+    <string name="player_error">Не удалось воспроизвести видео (%1$s). Попробуйте другое качество.</string>
+    <string name="player_other_quality">Другое качество</string>
+    <string name="player_back">Назад</string>
+    <string name="player_quality">Качество</string>
+    <string name="player_hint">◀ ▶ перемотка 30 с  ·  OK пауза</string>
+
+    <string name="row_recommended">Рекомендуемые</string>
+    <string name="settings_font">Размер шрифта: %1$s</string>
+    <string name="font_medium">средний</string>
+    <string name="font_large">крупный</string>
+    <string name="pin_set">Задать PIN-код</string>
+    <string name="pin_manage">Настроить PIN-код</string>
+    <string name="pin_change">Сменить PIN-код</string>
+    <string name="pin_disable">Отключить PIN-код</string>
+    <string name="pin_enter">Введите PIN-код</string>
+    <string name="pin_enter_current">Введите текущий PIN-код</string>
+    <string name="pin_enter_new">Введите новый PIN-код (4 цифры)</string>
+    <string name="pin_repeat_new">Повторите новый PIN-код</string>
+    <string name="pin_wrong">Неверный PIN-код</string>
+    <string name="pin_mismatch">Коды не совпали. Попробуйте ещё раз</string>
+    <string name="player_back_again">Нажмите «Назад» ещё раз для выхода</string>
+    <string name="player_hint_menu">"  ·  ▲ меню (%1$s)"</string>
+    <string name="settings_language">Язык приложения: %1$s</string>
+    <string name="language_title">Язык приложения</string>
+    <string name="lang_auto">авто (язык системы)</string>
+    <string name="vpn_notice">Если испытываете проблемы с загрузкой видео — включите VPN</string>
+    <string name="menu_watch">Смотреть</string>
+    <string name="menu_from_start">Смотреть сначала</string>
+    <string name="menu_channel">Все видео этого автора</string>
+    <string name="menu_remove_history">Убрать из истории</string>
+    <string name="menu_no_channel">Автор этого видео не указан</string>
+    <string name="menu_continue">Продолжить просмотр</string>
+    <string name="menu_author">Автор: %1$s</string>
+    <string name="menu_author_loading">Определяем автора…</string>
+    <string name="nav_subscriptions">Подписки</string>
+    <string name="sub_add">Подписаться на автора</string>
+    <string name="sub_remove">Отписаться от автора</string>
+    <string name="sub_open">Открыть видео автора</string>
+    <string name="subscriptions_empty">Подписок пока нет.\nУдерживайте OK на видео\nи выберите «Подписаться на автора».</string>
+    <string name="backup_export">Экспорт избранного, подписок и истории</string>
+    <string name="backup_import">Импорт избранного, подписок и истории</string>
+    <string name="backup_saved">Сохранено в папку «Загрузки» (Download):\n%1$s\nИзбранное: %2$d, подписки: %3$d, история: %4$d</string>
+    <string name="backup_save_failed">Не удалось сохранить копию.</string>
+    <string name="backup_pick">Выберите копию</string>
+    <string name="backup_none">Копии не найдены. Положите файл в папку «Загрузки» (Download) этого устройства или на флешку.</string>
+    <string name="backup_added">Импорт завершён.\nДобавлено в избранное: %1$d, в подписки: %2$d, в историю: %3$d.\nНичего не удалено.</string>
+    <string name="backup_bad_file">Этот файл не является копией этого приложения или повреждён.</string>
+    <string name="backup_read_failed">Не удалось прочитать файл.</string>
+    <string name="backup_need_access">Видны не все файлы. Чтобы увидеть копии от прошлой установки или перенесённые с другого устройства, разрешите доступ к файлам.</string>
+    <string name="backup_allow_access">Разрешить доступ к файлам</string>
+    <string name="backup_no_settings">На этом устройстве нет экрана для выдачи доступа к файлам.</string>
+    <string name="backup_denied">Без доступа к файлам это невозможно.</string>
+    <string name="ok">OK</string>
+</resources>
