@@ -1,7 +1,6 @@
 # PrivateTube
 
-**English** · [Русский](docs/README.ru.md) · [Українська](docs/README.uk.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md) · [Français](docs/README.fr.md) · [Deutsch](docs/README.de.md)
-> [Italiano](docs/README.it.md) · [Polski](docs/README.pl.md) · [Nederlands](docs/README.nl.md) · [Čeština](docs/README.cs.md) · [日本語](docs/README.ja.md) · [中文](docs/README.zh.md)
+**English** · [Русский](docs/README.ru.md) · [Українська](docs/README.uk.md) · [Español](docs/README.es.md) · [Português](docs/README.pt.md) · [Français](docs/README.fr.md) · [Deutsch](docs/README.de.md) · [Italiano](docs/README.it.md) · [Polski](docs/README.pl.md) · [Nederlands](docs/README.nl.md) · [Čeština](docs/README.cs.md) · [日本語](docs/README.ja.md) · [中文](docs/README.zh.md)
 
 > **18+.** This app is for adults only: it gives access to a website with adult material.
 >
