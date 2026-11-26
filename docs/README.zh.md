@@ -6,6 +6,19 @@
 >
 > **非官方项目。** 本项目与 PornHub 及该网站的所属公司无任何关联，未获得其认可或支持。使用前请阅读[免责声明](#免责声明)。
 
+<img width="1920" height="1048" alt="1" src="https://github.com/user-attachments/assets/b29329cb-7717-4aec-b8c3-54f8219925bf" />
+
+<details>
+<summary><b>更多截图</b></summary>
+<br>
+
+<img width="1920" height="1048" alt="Screenshot 2" src="https://github.com/user-attachments/assets/8d56b490-c636-45df-a23e-f2c903b6f876" />
+<img width="1920" height="1050" alt="Screenshot 3" src="https://github.com/user-attachments/assets/17fcf12e-51a6-4335-bdf5-9f5d08156b2f" />
+<img width="1920" height="1050" alt="Screenshot 4" src="https://github.com/user-attachments/assets/25417d21-927a-4a62-8f7d-3307d988d653" />
+<img width="1920" height="1053" alt="Screenshot 5" src="https://github.com/user-attachments/assets/7419ce69-33ec-477f-b95d-6c7fc13ec6db" />
+
+</details>
+
 ## 这是什么
 
 PrivateTube 是面向 **Android TV 和 Google TV** 的 PornHub 原生客户端，使用 Kotlin 编写（Jetpack Compose for TV、Media3）。
